@@ -5,11 +5,11 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
-@app.route('/projects/')
+@app.route('/projects/') # url with / can be map by /projects/ or /project./ will be added automaticaly
 def projects():
     return 'The project page'
 
-@app.route('/about')
+@app.route('/about') # url with no / is unique setting
 def about():
     return 'The about page' 
 
