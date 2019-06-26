@@ -1,6 +1,6 @@
 from flask import Flask, session, redirect, url_for, escape, request
-
 app = Flask(__name__)
+app.logger
 
 # Set the secret key to some random bytes. Keep this really secret!
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
@@ -28,3 +28,4 @@ def logout():
     # remove the username from the session if it's there
     session.pop('username', None)
     return redirect(url_for('index'))
+    
