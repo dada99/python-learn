@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-
+from . import db
 
 def create_app(test_config=None): #This factory function's name must be create_app
     # create and configure the app
@@ -23,6 +23,8 @@ def create_app(test_config=None): #This factory function's name must be create_a
         os.makedirs(app.instance_path)
     except OSError:
         pass
+
+    db.init_app(app)        
 
     # a simple page that says hello
     @app.route('/hello')
