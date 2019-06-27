@@ -1,2 +1,4 @@
 .vscode
-__pycache__
+flask/__pycache__/
+flask/flask-tutorial/__pycache__/
+flask/flask-tutorial/instance/
