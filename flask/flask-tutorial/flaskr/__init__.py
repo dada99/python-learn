@@ -24,8 +24,12 @@ def create_app(test_config=None): #This factory function's name must be create_a
     except OSError:
         pass
 
-    db.init_app(app)        
+    db.init_app(app) 
 
+    #register blueprint of 'auth'       
+    from . import auth
+    app.register_blueprint(auth.bp)
+    
     # a simple page that says hello
     @app.route('/hello')
     def hello():
