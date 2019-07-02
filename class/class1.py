@@ -9,3 +9,6 @@ print(myclass1.x)
 print(myclass1.y)
 print(type(myclass1.func1))
 print(type(MyClass1.func1))
+
+
+

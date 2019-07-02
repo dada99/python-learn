@@ -5,9 +5,12 @@ class MyClass2:
         print(self.x)
     def changex(self,new_x):
         self.x = new_x
-
     
 myclass2 = MyClass2()
 myclass2.func1()
 myclass2.changex(3)
 print(myclass2.x)
+
+
+
+
