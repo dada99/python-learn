@@ -1,7 +1,7 @@
-Code for Python 3 learn and course
-==================================
-#cli-commands : For how to use Python's interpreter
+# Code for Python 3 learn and course
 ---------------------------------------------------
-#builtin : For builtin Python objects
+## cli-commands : For how to use Python's interpreter
 ---------------------------------------------------
-# class : For how to create a Python class
+## builtin : For builtin Python objects
+---------------------------------------------------
+## class : For how to create a Python class
