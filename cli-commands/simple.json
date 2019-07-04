@@ -1,0 +1,2 @@
+#python -m json.tool 
+{"name":"Jack","age":21}
