@@ -3,5 +3,4 @@ flask/__pycache__/
 flask/flask-tutorial/flaskr/__pycache__/
 *.py[cod]
 flask/flask-tutorial/instance/
-
-#reference url:https://mounui.com/193.html
+venv
