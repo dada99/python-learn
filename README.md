@@ -1,7 +1,27 @@
 # Code for Python 3 learn and course
-## cli-commands : *For how to use Python's interpreter*
+
 ## builtin : *For builtin Python objects*
-## class : *For how to create a Python class*
-## test : *For how to test Python programme*
+- integer
+- str
+- list
+- tuple
+- set
+- enum
+- collections
+- codesc
+
+## control_flow: *For how to user for,while,if,etc*
+
+## functions: *For how to define a python function*
+- simple function
+- lambda
+
+## classes: *For how to define a python class*
+- simple class
+- class's variable
+- class inheritance
+
+
+
 
 
