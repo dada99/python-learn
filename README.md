@@ -10,7 +10,7 @@
 - collections
 - codesc
 
-## control_flow: *For how to user for,while,if,etc*
+## control_flow: *For how to use for,while,if,etc*
 
 ## functions: *For how to define a python function*
 - simple function
